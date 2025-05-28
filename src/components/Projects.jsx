@@ -15,7 +15,7 @@ const Projects = () => {
       tags: ["PHP", "Laravel", "MySQL",],
       image: "https://maqqam.net/uploads/images/thumbnail/logo.png",
       link: "https://example.com/project1",
-      github: "https://github.com/username/project1"
+      github: "https://github.com/ziadMohamed00"
       
     },
     {
@@ -25,26 +25,26 @@ const Projects = () => {
       tags: ["React", "TailwindCSS", "Framer Motion"],
       image: "https://images.unsplash.com/photo-1542744095-291d1f67b221",
       link: "https://example.com/project2",
-      github: "https://github.com/username/project2"
+      github: "https://github.com/ziadMohamed00"
     },
-    // {
-    //   id: 3,
-    //   title: "Task Management App",
-    //   description: "A productivity app for managing tasks, projects, and deadlines with team collaboration features.",
-    //   tags: ["React", "Firebase", "Redux"],
-    //   image: "task-management-app",
-    //   link: "https://example.com/project3",
-    //   github: "https://github.com/username/project3"
-    // },
-    // {
-    //   id: 4,
-    //   title: "Weather Dashboard",
-    //   description: "A weather application that provides real-time weather data and forecasts for locations worldwide.",
-    //   tags: ["JavaScript", "Weather API", "CSS"],
-    //   image: "weather-dashboard",
-    //   link: "https://example.com/project4",
-    //   github: "https://github.com/username/project4"
-    // }
+    {
+      id: 3,
+      title: "Cars App",
+      description: "Z CARS is a frontend portfolio project by Ziad Mohamed, showcasing a car dealership interface. It allows users to browse various car models, filter by year, make, body style, and price, and view featured vehicles. The site includes placeholder text and images, indicating it's a design prototype rather than a fully functional application.",
+      tags: ["HTML", "CSS", "JavaScript"],
+      image: "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/bc/9e/4e/bc9e4e1a-22f4-18fb-e81d-2fe72b5a8489/pr_source.png/1200x600wa.png",
+      link: "https://ziadmohamed00.github.io/z-car/",
+      github: "https://github.com/ziadMohamed00"
+    },
+    {
+      id: 4,
+      title: "Product Management System",
+      description: "Product Management System developed by Ziad Mohamed. It's a client-side CRUD (Create, Read, Update, Delete) application built using HTML, CSS, and JavaScript, utilizing the browser's Local Storage for data persistence.",
+      tags: ["JavaScript", "HTML", "CSS"],
+      image: "https://blog.emb.global/wp-content/uploads/2024/07/What-is-a-Product-Management-System-Things-To-Know.webp",
+      link: "https://ziadmohamed00.github.io/Crud-Javascript/",
+      github: "https://github.com/ziadMohamed00"
+    }
   ];
 
   const container = {

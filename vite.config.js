@@ -183,6 +183,7 @@ logger.error = (msg, options) => {
 
 export default defineConfig({
 	customLogger: logger,
+	base: '/portfolio/', // ← important for GitHub Pages
 	plugins: [react(), addTransformIndexHtml],
 	server: {
 		cors: true,

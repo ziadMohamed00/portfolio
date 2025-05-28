@@ -1,16 +1,17 @@
 {
-  "name": "portfolio-website",
+  "homepage": "https://ziadMohamed00.github.io/portfolio",
+  "name": "portfolio",
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://github.com/ziadMohamed00/portfolio.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
+  
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
     "@radix-ui/react-avatar": "^1.0.3",
