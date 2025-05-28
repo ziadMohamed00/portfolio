@@ -51,7 +51,7 @@ const Hero = () => {
             variants={item}
             className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6"
           >
-            Hi, I'm <span className="gradient-text">Ziad Mohamed Abdallah</span>
+            Hi, I'm <span className="gradient-text">Ziad Mohamed </span>
             <br />Creative Developer
           </motion.h1>
           
