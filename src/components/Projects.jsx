@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Cars App",
       description: "Z CARS is a frontend portfolio project by Ziad Mohamed, showcasing a car dealership interface. It allows users to browse various car models, filter by year, make, body style, and price, and view featured vehicles. The site includes placeholder text and images, indicating it's a design prototype rather than a fully functional application.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "https://is1-ssl.mzstatic.com/image/thumb/Purple30/v4/bc/9e/4e/bc9e4e1a-22f4-18fb-e81d-2fe72b5a8489/pr_source.png/1200x600wa.png",
+      image: "z-cars.png", // Example car image URL
       link: "https://ziadmohamed00.github.io/z-car/",
       github: "https://github.com/ziadMohamed00"
     },
@@ -115,9 +115,9 @@ const Projects = () => {
                     className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
                     style={project.id === 1 ? { width: 300, margin: '0 auto' } : { width: '100%' }}
                     src={
-                    project.image.startsWith('http')
-                      ? project.image
-                      : `/images/projects/${project.image}`
+                      project.image.startsWith('http')
+                        ? project.image
+                        : `/${project.image.replace(/^public[\\/]/, '')}`
                     }
                     />          
                   
