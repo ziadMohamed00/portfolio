@@ -32,7 +32,7 @@ const Projects = () => {
       title: "Cars App",
       description: "Z CARS is a frontend portfolio project by Ziad Mohamed, showcasing a car dealership interface. It allows users to browse various car models, filter by year, make, body style, and price, and view featured vehicles. The site includes placeholder text and images, indicating it's a design prototype rather than a fully functional application.",
       tags: ["HTML", "CSS", "JavaScript"],
-      image: "z-cars.png", // Example car image URL
+      image: "Images/z-cars.png", // Example car image URL
       link: "https://ziadmohamed00.github.io/z-car/",
       github: "https://github.com/ziadMohamed00"
     },

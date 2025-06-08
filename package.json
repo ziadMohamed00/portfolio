@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ziadMohamed00.github.io/portfolio",
+  "homepage": "https://ziadmohamed00.github.io/portfolio/",
   "name": "portfolio",
   "type": "module",
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.0.5",
